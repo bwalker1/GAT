@@ -4,8 +4,8 @@ import numpy as np
 import tensorflow as tf
 import argparse
 
-from models import GAT
-from models import SpGAT
+from gat import GAT
+from gat import SpGAT
 from utils import process
 
 checkpt_file = 'pre_trained/cora/mod_cora.ckpt'
